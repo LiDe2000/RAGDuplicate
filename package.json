@@ -1,0 +1,24 @@
+{
+  "name": "duplicate-content-detection",
+  "version": "1.0.0",
+  "description": "A project for detecting duplicate content in documents",
+  "main": "frontend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node frontend/server.js",
+    "dev": "nodemon frontend/server.js"
+  },
+  "keywords": ["nodejs", "express", "proxy", "frontend"],
+  "author": "Duplicate Content Detection Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^2.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "overrides": {
+    "http-proxy": "npm:http-proxy-node16@^1.0.6"
+  }
+}
